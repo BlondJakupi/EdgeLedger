@@ -1,0 +1,265 @@
+.fixed{
+    position: fixed;
+  display: flex;
+  left: 0;
+  right: 0;
+  background-color: rgb(102, 93, 93);
+  justify-content: space-between;
+  top: 0;
+  height: 80px;        
+  border-top-color: white;        
+  opacity: 0.9;
+  z-index: 2;
+}
+.spani{
+    color: green;
+}
+.ipari{
+display: flex;
+justify-content: start;
+align-items: center;
+font-size: x-large;
+color: white;
+margin-left: 50px;     
+}
+.idyti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    margin-right: 30px;
+    color: white;                   
+}
+.tekst1:hover{
+ text-decoration: underline;
+ cursor: pointer;
+}
+.foto1{
+width: 100%;
+height: 920px;
+            
+}
+.krejt{
+margin: 0;
+height: 4300px;       
+}     
+.mini{
+position: absolute;
+z-index: 2;
+left: 700px;
+top: 450px;
+color: white;       
+}
+.mini2{
+position: relative;
+}
+.h1{
+font-size: 80px;
+font-weight: lighter;
+line-height: 15px;      
+}
+.h4{
+font-size: 20px;
+}
+.but{
+margin-left: 200px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 25px;
+padding-right: 25px;
+color: white;
+background-color: rgb(59, 197, 59);
+border-radius: 10px;
+border: none;
+transition: opacity 0.2s;
+}
+.but:hover{
+cursor: pointer;
+opacity: 0.9;
+}
+.ren{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 30px;    
+}
+.kuleta{
+display: flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center; 
+margin-left: 30px;   
+}
+.p1{
+font-size: 19px;
+}     
+.foto2{
+border-radius: 65px;
+width: 89px;
+height: 84px;       
+}
+.people{
+display: flex;
+margin-top: 20px;     
+}
+.fleta{
+display: flex;
+flex-direction: column;
+flex: 1;
+justify-content: center;
+align-items: start;
+background-color: rgb(40, 167, 69);
+height: 630px;
+padding-left: 30px;
+color: white;              
+}
+.njerz{
+display: flex;
+width: 920px;
+height: 630px;   
+}
+.foto4{     
+width: 920px;
+}
+.we{
+font-size: 40px;
+font-family: "Open Sans", sans-serif;
+font-weight: 100;
+margin: 0 0 0 0;
+}
+.butoni{
+padding: 10px 30px 10px 30px;
+background-color: rgb(40, 167, 69);
+color: white;
+border-style: solid;
+border-color: white;
+border-radius: 5px;
+transition: opacity 0.2s;
+}
+.butoni:hover{
+cursor: pointer;
+opacity: 0.8;
+}
+.butoni:active{
+opacity: 0.6;
+}
+.tav{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+text-align: center;
+margin-top: 30px;
+}
+.tav1{
+font-size: 40px;
+font-family: "Open Sans", sans-serif;
+font-weight: 100;
+color: rgb(59, 58, 58);
+}
+.tav2{
+font-size: 20px;
+}
+.people1{
+display: flex;
+margin-top: 40px;     
+}
+.fleta1{
+display: flex;
+flex-direction: column;
+flex: 1;
+justify-content: center;
+align-items: start;
+background-color: rgb(2, 132, 208);
+height: 630px;
+padding-left: 30px;
+color: white;              
+}
+.njerz1{
+display: flex;
+width: 920px;
+height: 630px;   
+}
+.foto41{     
+width: 920px;
+}
+.we1{
+font-size: 40px;
+font-family: "Open Sans", sans-serif;
+font-weight: 100;
+margin: 0 0 0 0;
+}
+.veq{
+width: 700px;
+font-size: 15px;
+}
+.butoni1{
+padding: 10px 30px 10px 30px;
+background-color: rgb(2, 132, 208);
+color: white;
+border-style: solid;
+border-color: white;
+border-radius: 5px;
+transition: opacity 0.2s;
+}
+.butoni1:hover{
+cursor: pointer;
+opacity: 0.8;
+}
+.butoni1:active{
+opacity: 0.6;
+}
+.foto5{
+width: 484.672px;
+height:  322.344px;
+border-radius: 50%;
+margin: 30px;
+}
+.fleta5{
+display: flex;
+flex-direction: column;
+flex: 1;
+background-color: rgb(244, 244, 244);
+justify-content: center;      
+}
+.input{
+margin: 5px 30px 5px 30px;
+height: 40px;
+border: none;
+}
+.butoni9{
+background-color: rgb(40, 167, 69);
+color: white;
+border-style: solid;
+border-color: white;
+border-radius: 10px;
+transition: opacity 0.2s;
+padding: 10px 0 10px 0;
+margin: 30px 30px 5px 30px;
+}
+.butoni9:hover{
+cursor: pointer;
+opacity: 0.8;
+}
+.butoni9:active{
+opacity: 0.6;
+}
+.ok{
+margin-left: 30px;
+font-size: 40px;
+font-weight: 100;
+color: rgb(51, 51, 51);
+}
+.fundi{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: baseline;
+height: 200px;
+color: white;
+background-color: rgb(51, 51, 51);
+padding-top: 100px;
+font-size: 20px;
+}    
